@@ -2,907 +2,433 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dilshad Akthar — Flutter Developer and Mobile Application Engineer with 3+ years of experience in FinTech, e-commerce, education and business applications.">
+    <meta name="theme-color" content="#07100f">
+    <meta name="author" content="Dilshad Akthar">
+    <meta property="og:title" content="Dilshad Akthar | Flutter Developer">
+    <meta property="og:description" content="Flutter Developer and Mobile Application Engineer building production Android and iOS applications.">
+    <meta property="og:type" content="website">
+    <title>Dilshad Akthar | Flutter Developer</title>
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-          content="Dilshad Akthar - Flutter & Mobile App Developer">
-
-    <title>Flutter Developer | Mobile Application Engineer</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-          rel="stylesheet">
-
-    <!-- Icons -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-<!-- ================= NAVBAR ================= -->
+    <header class="navbar" id="top">
+        <div class="container nav-container">
+            <a href="#top" class="logo" aria-label="Dilshad Akthar home">AKTHAR<span>.</span></a>
 
-<header class="navbar">
+            <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+                <i class="fa-solid fa-bars"></i>
+            </button>
 
-    <div class="container nav-container">
+            <nav id="site-nav" aria-label="Primary navigation">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
-        <a href="#" class="logo">
-            AKTHAR<span>.</span>
-        </a>
-
-        <nav>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <a href="#contact" class="nav-button">
-            Let's Talk
-        </a>
-
-    </div>
-
-</header>
-
-
-<!-- ================= HERO ================= -->
-
-<section class="hero">
-
-    <div class="container hero-container">
-
-        <div class="hero-content">
-
-            <p class="hero-small">
-                👋 Hello, I'm
-            </p>
-
-            <h1>
-                Dilshad <span>Akthar</span>
-            </h1>
-
-            <h2>
-                Flutter Developer | Mobile Application Engineer
-            </h2>
-
-            <p class="hero-description">
-                3+ years building production mobile applications across FinTech, e-commerce, education and business domains. Experienced in Flutter, Dart, REST APIs, Firebase and Node.js.
-            </p>
-
-            <div class="hero-buttons">
-
-                <a href="#projects" class="primary-button">
-                    View My Work
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
-
-                <a href="https://github.com/aktharOG"
-                   target="_blank"
-                   class="secondary-button">
-
-                    <i class="fa-brands fa-github"></i>
-                    GitHub
-
-                </a>
-
-            </div>
-
-            <div class="social-links">
-
-                <a href="https://github.com/aktharOG"
-                   target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-
-                <a href="https://www.linkedin.com/in/dilshad-akthar-884780250/"
-                   target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-
-                <a href="mailto:vpdilshadakthar@gmail.com">
-                    <i class="fa-solid fa-envelope"></i>
-                </a>
-
-            </div>
-
+            <a href="mailto:vpdilshadakthar@gmail.com" class="nav-button">Let's Talk <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
+    </header>
 
+    <main id="main">
+        <!-- HERO -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-grid container">
+                <div class="hero-content">
+                    <div class="availability"><span></span> Flutter &amp; Mobile Application Developer</div>
+                    <p class="eyebrow">HELLO, I'M</p>
+                    <h1 id="hero-title">Dilshad <span>Akthar</span></h1>
+                    <h2>Flutter Developer building production-ready mobile experiences.</h2>
+                    <p class="hero-description">
+                        3+ years of experience building cross-platform applications across FinTech, e-commerce,
+                        education and business domains — from mobile UI and API integration to payments and production releases.
+                    </p>
 
-        <div class="hero-card">
-
-            <div class="code-window">
-
-                <div class="window-top">
-
-                    <div class="window-buttons">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">Explore My Work <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="assets/Dilshad_Akthar_Flutter_Developer_CV_2026.pdf" class="btn btn-secondary" download>
+                            <i class="fa-solid fa-file-arrow-down"></i> Download CV
+                        </a>
                     </div>
 
-                    <p>developer.dart</p>
-
+                    <div class="social-links" aria-label="Social links">
+                        <a href="https://github.com/aktharOG" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/dilshad-akthar-884780250/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:vpdilshadakthar@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
                 </div>
 
-                <div class="code">
-
-                    <p>
-                        <span class="purple">class</span>
-                        <span class="blue">Developer</span> {
-                    </p>
-
-                    <p class="indent">
-                        <span class="purple">final</span>
-                        name =
-                        <span class="green">'Dilshad Akthar'</span>;
-                    </p>
-
-                    <p class="indent">
-                        <span class="purple">final</span>
-                        role =
-                        <span class="green">'Flutter Developer'</span>;
-                    </p>
-
-                    <p class="indent">
-                        <span class="purple">final</span>
-                        experience =
-                        <span class="orange">'3+ Years'</span>;
-                    </p>
-
-                    <p class="indent">
-                        <span class="purple">final</span>
-                        passion =
-                        <span class="green">'Building Apps'</span>;
-                    </p>
-
-                    <p>}</p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= ABOUT ================= -->
-
-<section id="about" class="section">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <p>ABOUT ME</p>
-
-            <h2>
-                Building products that
-                <span>solve problems.</span>
-            </h2>
-
-        </div>
-
-        <div class="about-grid">
-
-            <div class="about-text">
-
-    <p>
-        I'm a Flutter and Mobile Application Developer with 3+ years of
-        experience building production applications across FinTech,
-        e-commerce, education, and business domains.
-    </p>
-
-    <p>
-        I specialize in Flutter and Dart, with hands-on experience in
-        REST API integration, Firebase, payment systems, authentication,
-        and backend services. I've worked on Android and iOS applications
-        and have experience with Node.js, PostgreSQL, MySQL, and GraphQL.
-    </p>
-
-    <p>
-        My work includes financial applications, e-commerce platforms,
-        LMS and education products, and publicly released mobile
-        applications. I also explore game development with Unity and
-        enjoy solving challenging technical problems and building
-        practical products.
-    </p>
-
-</div>
-
-
-            <div class="about-stats">
-
-                <div class="stat-card">
-                    <h3>3+</h3>
-                    <p>Years Experience</p>
-                </div>
-
-                <div class="stat-card">
-                    <h3>10+</h3>
-                    <p>Projects</p>
-                </div>
-
-                <div class="stat-card">
-                    <h3>5+</h3>
-                    <p>Technologies</p>
-                </div>
-
-                <div class="stat-card">
-                    <h3>∞</h3>
-                    <p>Learning</p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= EXPERIENCE ================= -->
-
-<section id="experience" class="section dark-section">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <p>EXPERIENCE</p>
-
-            <h2>
-                Where I've <span>worked</span>
-            </h2>
-
-        </div>
-
-
-        <div class="timeline">
-
-
-            <!-- Milliondots -->
-
-            <div class="timeline-item">
-
-                <div class="timeline-dot"></div>
-
-                <div class="experience-card">
-
-                    <div class="experience-header">
-
-                        <div>
-
-                            <h3>
-                                Flutter Developer
-                            </h3>
-
-                            <h4>
-                                Milliondots Edu
-                            </h4>
-
+                <div class="hero-visual" aria-label="Developer profile summary">
+                    <div class="code-window">
+                        <div class="window-bar">
+                            <div class="window-dots"><span></span><span></span><span></span></div>
+                            <span class="window-file">developer.dart</span>
+                            <span class="window-status">● production</span>
                         </div>
-
-                        <span>
-                            Mobile Application
-                        </span>
-
-                    </div>
-
-                    <p>
-                        Worked on a stock trading and education
-                        platform, developing mobile application
-                        features using Flutter and Dart.
-                    </p>
-
-                    <div class="tags">
-
-                        <span>Flutter</span>
-                        <span>Dart</span>
-                        <span>REST API</span>
-                        <span>Firebase</span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- MFA SPORTS -->
-
-            <div class="timeline-item">
-
-                <div class="timeline-dot"></div>
-
-                <div class="experience-card">
-
-                    <div class="experience-header">
-
-                        <div>
-
-                            <h3>
-                                Flutter Developer
-                            </h3>
-
-                            <h4>
-                                MFA SPORTS
-                            </h4>
-
+                        <div class="code-content">
+                            <p><span class="token-purple">class</span> <span class="token-blue">Developer</span> {</p>
+                            <p class="indent"><span class="token-purple">final</span> name = <span class="token-green">'Dilshad Akthar'</span>;</p>
+                            <p class="indent"><span class="token-purple">final</span> role = <span class="token-green">'Flutter Engineer'</span>;</p>
+                            <p class="indent"><span class="token-purple">final</span> experience = <span class="token-orange">'3+ years'</span>;</p>
+                            <p class="indent"><span class="token-purple">final</span> focus = <span class="token-green">'Mobile + APIs'</span>;</p>
+                            <p class="indent"><span class="token-purple">final</span> domains = [<span class="token-green">'FinTech'</span>, <span class="token-green">'Commerce'</span>];</p>
+                            <p>}</p>
                         </div>
-
-                        <span>
-                            E-Commerce
-                        </span>
-
                     </div>
 
-                    <p>
-                        Developed a Flutter-based sports e-commerce
-                        application with product browsing, cart,
-                        checkout and payment integration.
-                    </p>
-
-                    <div class="tags">
-
-                        <span>Flutter</span>
-                        <span>Payment Gateway</span>
-                        <span>Firebase</span>
-                        <span>REST API</span>
-
+                    <div class="floating-card floating-card-one">
+                        <i class="fa-brands fa-flutter"></i>
+                        <div><strong>Flutter</strong><small>Primary stack</small></div>
                     </div>
-
+                    <div class="floating-card floating-card-two">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <div><strong>Android + iOS</strong><small>Cross-platform</small></div>
+                    </div>
                 </div>
-
             </div>
 
+            <div class="hero-metrics container">
+                <div><strong>3+</strong><span>Years Experience</span></div>
+                <div><strong>4+</strong><span>Production Apps</span></div>
+                <div><strong>4</strong><span>Core Domains</span></div>
+                <div><strong>API</strong><span>Backend Integration</span></div>
+            </div>
+        </section>
 
-            <!-- FinTech -->
+        <!-- ABOUT -->
+        <section id="about" class="section section-light" aria-labelledby="about-title">
+            <div class="container">
+                <div class="section-heading">
+                    <span>01 / ABOUT</span>
+                    <h2 id="about-title">Building products that <em>solve problems.</em></h2>
+                </div>
 
-            <div class="timeline-item">
+                <div class="about-grid">
+                    <div class="about-copy">
+                        <p class="lead">
+                            I'm a Flutter and Mobile Application Developer with 3+ years of experience building production
+                            applications across FinTech, e-commerce, education and business domains.
+                        </p>
+                        <p>
+                            I specialize in Flutter and Dart, with hands-on experience integrating REST APIs, Firebase,
+                            payment systems, authentication and backend services. I've worked on Android and iOS applications
+                            and have experience with Node.js, PostgreSQL, MySQL and GraphQL.
+                        </p>
+                        <p>
+                            My work includes financial applications, e-commerce platforms, LMS and education products,
+                            and publicly released mobile applications. I enjoy turning business requirements into clean,
+                            practical and maintainable mobile experiences.
+                        </p>
+                    </div>
 
-                <div class="timeline-dot"></div>
-
-                <div class="experience-card">
-
-                    <div class="experience-header">
-
-                        <div>
-
-                            <h3>
-                                Mobile App Developer
-                            </h3>
-
-                            <h4>
-                                FinTech Applications
-                            </h4>
-
+                    <aside class="about-panel">
+                        <div class="mini-profile">
+                            <div class="mini-icon"><i class="fa-solid fa-code"></i></div>
+                            <div><span>Primary focus</span><strong>Flutter / Dart</strong></div>
                         </div>
+                        <div class="mini-profile">
+                            <div class="mini-icon"><i class="fa-solid fa-server"></i></div>
+                            <div><span>Backend integration</span><strong>REST / Firebase / Node.js</strong></div>
+                        </div>
+                        <div class="mini-profile">
+                            <div class="mini-icon"><i class="fa-solid fa-layer-group"></i></div>
+                            <div><span>Product domains</span><strong>FinTech / Commerce / Education</strong></div>
+                        </div>
+                        <div class="mini-profile">
+                            <div class="mini-icon"><i class="fa-solid fa-store"></i></div>
+                            <div><span>Delivery</span><strong>Android / iOS / Production</strong></div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
 
-                        <span>
-                            FinTech
-                        </span>
-
-                    </div>
-
-                    <p>
-                        Worked on financial application concepts
-                        involving APIs, payment systems,
-                        authentication and mobile workflows.
-                    </p>
-
-                    <div class="tags">
-
-                        <span>Flutter</span>
-                        <span>Node.js</span>
-                        <span>PostgreSQL</span>
-                        <span>APIs</span>
-
-                    </div>
-
+        <!-- EXPERIENCE -->
+        <section id="experience" class="section section-dark" aria-labelledby="experience-title">
+            <div class="container">
+                <div class="section-heading dark-heading">
+                    <span>02 / EXPERIENCE</span>
+                    <h2 id="experience-title">Professional <em>experience.</em></h2>
                 </div>
 
+                <div class="experience-list">
+                    <article class="experience-item current">
+                        <div class="experience-date">2026 — PRESENT</div>
+                        <div class="experience-marker"><span></span></div>
+                        <div class="experience-card">
+                            <div class="experience-top">
+                                <div>
+                                    <p class="role-label">Flutter Developer</p>
+                                    <h3>Aethronix Innovation</h3>
+                                </div>
+                                <span class="location">India</span>
+                            </div>
+                            <p>Developing and maintaining Flutter-based mobile applications, including FinTech workflows, API integrations and production mobile features.</p>
+                            <div class="tags"><span>Flutter</span><span>Dart</span><span>REST APIs</span><span>Firebase</span><span>FinTech</span></div>
+                        </div>
+                    </article>
+
+                    <article class="experience-item">
+                        <div class="experience-date">2025 — 2026</div>
+                        <div class="experience-marker"><span></span></div>
+                        <div class="experience-card">
+                            <div class="experience-top">
+                                <div>
+                                    <p class="role-label">Mobile App Developer / IT Administrator</p>
+                                    <h3>Lets Organic</h3>
+                                </div>
+                                <span class="location">Dubai, UAE</span>
+                            </div>
+                            <p>Worked across mobile application development and technology operations in a Dubai-based business environment.</p>
+                            <div class="tags"><span>Mobile Apps</span><span>IT Operations</span><span>Web</span></div>
+                        </div>
+                    </article>
+
+                    <article class="experience-item">
+                        <div class="experience-date">2024 — 2025</div>
+                        <div class="experience-marker"><span></span></div>
+                        <div class="experience-card">
+                            <div class="experience-top">
+                                <div>
+                                    <p class="role-label">Software Developer</p>
+                                    <h3>Aethronix Innovation</h3>
+                                </div>
+                                <span class="location">India</span>
+                            </div>
+                            <p>Developed software solutions across mobile and web technologies, contributing to application features and technical implementation.</p>
+                            <div class="tags"><span>Flutter</span><span>JavaScript</span><span>Web</span><span>APIs</span></div>
+                        </div>
+                    </article>
+
+                    <article class="experience-item">
+                        <div class="experience-date">2023 — 2024</div>
+                        <div class="experience-marker"><span></span></div>
+                        <div class="experience-card">
+                            <div class="experience-top">
+                                <div>
+                                    <p class="role-label">Flutter Developer</p>
+                                    <h3>Noviindus Technology</h3>
+                                </div>
+                                <span class="location">India</span>
+                            </div>
+                            <p>Developed Flutter applications, implemented mobile interfaces and contributed to application functionality.</p>
+                            <div class="tags"><span>Flutter</span><span>Dart</span><span>Android</span></div>
+                        </div>
+                    </article>
+
+                    <article class="experience-item">
+                        <div class="experience-date">2022 — 2023</div>
+                        <div class="experience-marker"><span></span></div>
+                        <div class="experience-card">
+                            <div class="experience-top">
+                                <div>
+                                    <p class="role-label">Software Trainee</p>
+                                    <h3>Arion Infotech</h3>
+                                </div>
+                                <span class="location">India</span>
+                            </div>
+                            <p>Started professional software development experience and built a foundation in application development and engineering workflows.</p>
+                        </div>
+                    </article>
+                </div>
             </div>
+        </section>
 
-        </div>
+        <!-- SKILLS -->
+        <section id="skills" class="section section-light" aria-labelledby="skills-title">
+            <div class="container">
+                <div class="section-heading">
+                    <span>03 / TECHNOLOGY</span>
+                    <h2 id="skills-title">A practical <em>technical stack.</em></h2>
+                </div>
 
-    </div>
+                <div class="skills-grid">
+                    <article class="skill-card featured">
+                        <div class="skill-icon"><i class="fa-brands fa-flutter"></i></div>
+                        <h3>Mobile Development</h3>
+                        <p>Flutter · Dart · Android · iOS · Kotlin</p>
+                        <span class="skill-note">Primary specialization</span>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                        <h3>State &amp; Integration</h3>
+                        <p>REST APIs · Firebase · GraphQL · Authentication · Payments</p>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+                        <h3>Backend</h3>
+                        <p>Node.js · REST services · GraphQL · Backend integration</p>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                        <h3>Data</h3>
+                        <p>PostgreSQL · MySQL · Firebase</p>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3>Web</h3>
+                        <p>React · Next.js · JavaScript · HTML · CSS · Tailwind CSS</p>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h3>Tools</h3>
+                        <p>Git · GitHub · Android Studio · VS Code · Figma</p>
+                    </article>
+                </div>
 
-</section>
+                <div class="engineering-strip">
+                    <span>ENGINEERING</span>
+                    <div>
+                        <b>Cross-platform apps</b><i></i><b>API integration</b><i></i><b>Authentication</b><i></i>
+                        <b>Payment integration</b><i></i><b>Production releases</b><i></i><b>Responsive UI</b>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- PROJECTS -->
+        <section id="projects" class="section section-dark" aria-labelledby="projects-title">
+            <div class="container">
+                <div class="section-heading dark-heading">
+                    <span>04 / SELECTED WORK</span>
+                    <h2 id="projects-title">Apps I've <em>worked on.</em></h2>
+                    <p class="heading-description">A selection of mobile products spanning education, commerce and FinTech, with live store links where available.</p>
+                </div>
 
-<!-- ================= SKILLS ================= -->
+                <div class="projects-grid">
+                    <article class="project-card project-featured">
+                        <div class="project-number">01</div>
+                        <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <div class="project-body">
+                            <div class="project-meta"><span>FINTECH / TRADING</span><span>Flutter</span></div>
+                            <h3>Million Dots</h3>
+                            <p>Trading and financial learning application focused on helping users learn and access trading-related content.</p>
+                            <div class="tags"><span>Flutter</span><span>Dart</span><span>FinTech</span><span>Trading</span></div>
+                            <div class="project-links">
+                                <a href="https://apps.apple.com/in/app/milliondots/id6446019549" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-apple"></i> App Store</a>
+                                <a href="https://play.google.com/store/apps/details?id=com.milliondots.milliondots&pcampaignid=web_share" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-play"></i> Google Play</a>
+                            </div>
+                        </div>
+                    </article>
 
-<section id="skills" class="section">
+                    <article class="project-card">
+                        <div class="project-number">02</div>
+                        <div class="project-icon"><i class="fa-solid fa-basketball"></i></div>
+                        <div class="project-body">
+                            <div class="project-meta"><span>E-COMMERCE</span><span>Mobile</span></div>
+                            <h3>MFA SPORTS</h3>
+                            <p>Sports e-commerce application for product discovery, cart management, checkout and mobile purchasing with payment integration.</p>
+                            <div class="tags"><span>Flutter</span><span>Dart</span><span>Payments</span><span>Firebase</span></div>
+                            <div class="project-links">
+                                <a href="https://apps.apple.com/in/app/mfa-sports/id6504996631" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-apple"></i> App Store</a>
+                                <a href="https://play.google.com/store/apps/details?id=com.mfasports.app&pcampaignid=web_share" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-play"></i> Google Play</a>
+                            </div>
+                        </div>
+                    </article>
 
-    <div class="container">
+                    <article class="project-card">
+                        <div class="project-number">03</div>
+                        <div class="project-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="project-body">
+                            <div class="project-meta"><span>EDUCATION</span><span>Learning</span></div>
+                            <h3>Exam Winner</h3>
+                            <p>Educational learning application designed for students to access learning content and exam-preparation resources.</p>
+                            <div class="tags"><span>Flutter</span><span>Dart</span><span>Android</span><span>iOS</span></div>
+                            <div class="project-links">
+                                <a href="https://apps.apple.com/in/app/exam-winner-learning-app/id6471256966" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-apple"></i> App Store</a>
+                                <a href="https://play.google.com/store/apps/details?id=com.winner.exam_winner&pcampaignid=web_share" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-play"></i> Google Play</a>
+                            </div>
+                        </div>
+                    </article>
 
-        <div class="section-title">
+                    <article class="project-card">
+                        <div class="project-number">04</div>
+                        <div class="project-icon"><i class="fa-solid fa-book-open"></i></div>
+                        <div class="project-body">
+                            <div class="project-meta"><span>LMS / EDUCATION</span><span>Mobile</span></div>
+                            <h3>MS Solutions</h3>
+                            <p>Learning Management System providing students with access to educational content and learning resources.</p>
+                            <div class="tags"><span>Flutter</span><span>Dart</span><span>LMS</span><span>iOS</span></div>
+                            <div class="project-links">
+                                <a href="https://apps.apple.com/in/app/ms-solutions/id6526467536" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-apple"></i> App Store</a>
+                                <a href="https://play.google.com/store/apps/details?id=com.ms.solutions&pcampaignid=web_share" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-play"></i> Google Play</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
 
-            <p>TECHNOLOGIES</p>
+                <div class="projects-footer">
+                    <p>More development work and experiments are available on GitHub.</p>
+                    <a href="https://github.com/aktharOG" target="_blank" rel="noopener noreferrer" class="btn btn-secondary"><i class="fa-brands fa-github"></i> View GitHub</a>
+                </div>
+            </div>
+        </section>
 
-            <h2>
-                My <span>tech stack</span>
-            </h2>
-
-        </div>
-
-
-        <div class="skills-grid">
-
-            <div class="skill-card">
-
-                <i class="fa-solid fa-mobile-screen-button"></i>
-
-                <h3>Mobile Development</h3>
-
+        <!-- CONTACT -->
+        <section id="contact" class="contact-section" aria-labelledby="contact-title">
+            <div class="container contact-inner">
+                <span class="contact-kicker">05 / CONTACT</span>
+                <h2 id="contact-title">Let's build something <em>useful.</em></h2>
                 <p>
-                    Flutter · Dart · Android · iOS
+                    Open to opportunities and projects involving Flutter, mobile applications, FinTech,
+                    e-commerce and cross-platform product development.
                 </p>
-
+                <div class="contact-actions">
+                    <a href="mailto:vpdilshadakthar@gmail.com" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> Email Me</a>
+                    <a href="https://www.linkedin.com/in/dilshad-akthar-884780250/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                </div>
+                <div class="contact-details">
+                    <a href="mailto:vpdilshadakthar@gmail.com">vpdilshadakthar@gmail.com</a>
+                    <span>•</span>
+                    <a href="tel:+919746263704">+91 9746263704</a>
+                    <span>•</span>
+                    <span>India / UAE</span>
+                </div>
             </div>
+        </section>
+    </main>
 
-
-            <div class="skill-card">
-
-                <i class="fa-solid fa-server"></i>
-
-                <h3>Backend</h3>
-
-                <p>
-                    Node.js · REST API · GraphQL
-                </p>
-
+    <footer>
+        <div class="container footer-inner">
+            <p>© 2026 Dilshad Akthar. Built with Flutter mindset &amp; web technologies.</p>
+            <div>
+                <a href="https://github.com/aktharOG" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/dilshad-akthar-884780250/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="#top">Back to top ↑</a>
             </div>
-
-
-            <div class="skill-card">
-
-                <i class="fa-solid fa-database"></i>
-
-                <h3>Database</h3>
-
-                <p>
-                    PostgreSQL · MySQL · Firebase
-                </p>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <i class="fa-brands fa-react"></i>
-
-                <h3>Web</h3>
-
-                <p>
-                    React · Next.js · HTML · CSS
-                </p>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <i class="fa-solid fa-gamepad"></i>
-
-                <h3>Game Development</h3>
-
-                <p>
-                    Unity · C#
-                </p>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <i class="fa-brands fa-git-alt"></i>
-
-                <h3>Tools</h3>
-
-                <p>
-                    Git · GitHub · Firebase · Figma
-                </p>
-
-            </div>
-
         </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- ================= PROJECTS ================= -->
-
-<section id="projects" class="section dark-section">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <p>PROJECTS</p>
-
-            <h2>
-                Apps I've <span>built</span>
-            </h2>
-
-        </div>
-
-
-        <div class="projects-grid">
-
-
-            <!-- EXAM WINNER -->
-
-            <div class="project-card">
-
-                <div class="project-icon">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                </div>
-
-                <div class="project-content">
-
-                    <p class="project-type">
-                        EDUCATION / LEARNING
-                    </p>
-
-                    <h3>
-                        Exam Winner
-                    </h3>
-
-                    <p>
-                        Educational learning application designed
-                        for students to access learning content
-                        and exam preparation resources.
-                    </p>
-
-                    <div class="tags">
-
-                        <span>Flutter</span>
-                        <span>Dart</span>
-                        <span>iOS</span>
-                        <span>Android</span>
-
-                    </div>
-
-                    <div class="store-links">
-
-                        <a
-                            href="https://apps.apple.com/in/app/exam-winner-learning-app/id6471256966"
-                            target="_blank"
-                            rel="noopener noreferrer">
-
-                            <i class="fa-brands fa-apple"></i>
-                            App Store
-
-                        </a>
-
-                        <a
-                            href="https://play.google.com/store/apps/details?id=com.winner.exam_winner&pcampaignid=web_share"
-                            target="_blank"
-                            rel="noopener noreferrer">
-
-                            <i class="fa-brands fa-google-play"></i>
-                            Google Play
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- MFA SPORTS -->
-
-            <div class="project-card">
-
-                <div class="project-icon">
-                    <i class="fa-solid fa-basketball"></i>
-                </div>
-
-                <div class="project-content">
-
-                    <p class="project-type">
-                        E-COMMERCE
-                    </p>
-
-                    <h3>
-                        MFA SPORTS
-                    </h3>
-
-                    <p>
-                        Sports e-commerce application for browsing
-                        products, managing carts and completing
-                        purchases through mobile devices.
-                    </p>
-
-                    <div class="tags">
-
-                        <span>Flutter</span>
-                        <span>Dart</span>
-                        <span>E-Commerce</span>
-                        <span>Payments</span>
-
-                    </div>
-
-                    <div class="store-links">
-
-                        <a
-                            href="https://apps.apple.com/in/app/mfa-sports/id6504996631"
-                            target="_blank"
-                            rel="noopener noreferrer">
-
-                            <i class="fa-brands fa-apple"></i>
-                            App Store
-
-                        </a>
-
-                        <a
-                            href="https://play.google.com/store/apps/details?id=com.mfasports.app&pcampaignid=web_share"
-                            target="_blank"
-                            rel="noopener noreferrer">
-
-                            <i class="fa-brands fa-google-play"></i>
-                            Google Play
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- MS SOLUTIONS -->
-
-            <div class="project-card">
-
-                <div class="project-icon">
-                    <i class="fa-solid fa-book-open"></i>
-                </div>
-
-                <div class="project-content">
-
-                    <p class="project-type">
-                        LMS / EDUCATION
-                    </p>
-
-                    <h3>
-                        MS Solutions
-                    </h3>
-
-                    <p>
-                        Learning Management System application
-                        providing students with access to educational
-                        content and learning resources.
-                    </p>
-
-                    <div class="tags">
-
-                        <span>Flutter</span>
-                        <span>Dart</span>
-                        <span>LMS</span>
-                        <span>iOS</span>
-                        <span>Android</span>
-
-                    </div>
-
-                    <div class="store-links">
-
-                        <a
-                            href="https://apps.apple.com/in/app/ms-solutions/id6526467536"
-                            target="_blank"
-                            rel="noopener noreferrer">
-
-                            <i class="fa-brands fa-apple"></i>
-                            App Store
-
-                        </a>
-
-                        <a
-                            href="https://play.google.com/store/apps/details?id=com.ms.solutions&pcampaignid=web_share"
-                            target="_blank"
-                            rel="noopener noreferrer">
-
-                            <i class="fa-brands fa-google-play"></i>
-                            Google Play
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- MILLION DOTS -->
-
-            <div class="project-card">
-
-                <div class="project-icon">
-                    <i class="fa-solid fa-chart-line"></i>
-                </div>
-
-                <div class="project-content">
-
-                    <p class="project-type">
-                        FINTECH / TRADING
-                    </p>
-
-                    <h3>
-                        Million Dots
-                    </h3>
-
-                    <p>
-                        Trading and financial learning application
-                        focused on helping users learn and access
-                        trading-related content.
-                    </p>
-
-                    <div class="tags">
-
-                        <span>Flutter</span>
-                        <span>Dart</span>
-                        <span>Trading</span>
-                        <span>FinTech</span>
-
-                    </div>
-
-                    <div class="store-links">
-
-                        <a
-                            href="https://apps.apple.com/in/app/milliondots/id6446019549"
-                            target="_blank"
-                            rel="noopener noreferrer">
-
-                            <i class="fa-brands fa-apple"></i>
-                            App Store
-
-                        </a>
-
-                        <a
-                            href="https://play.google.com/store/apps/details?id=com.milliondots.milliondots&pcampaignid=web_share"
-                            target="_blank"
-                            rel="noopener noreferrer">
-
-                            <i class="fa-brands fa-google-play"></i>
-                            Google Play
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-           
-
-
-        <div class="github-button-container">
-
-            <a href="https://github.com/aktharOG"
-               target="_blank"
-               class="secondary-button">
-
-                <i class="fa-brands fa-github"></i>
-
-                View More on GitHub
-
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= CONTACT ================= -->
-
-<section id="contact" class="section contact-section">
-
-    <div class="container contact-container">
-
-        <div class="section-title">
-
-            <p>CONTACT</p>
-
-            <h2>
-                Let's build something
-                <span>great.</span>
-            </h2>
-
-        </div>
-
-        <p class="contact-description">
-            Have a project, opportunity or idea?
-            Feel free to reach out.
-        </p>
-
-
-        <div class="contact-buttons">
-
-            <a href="mailto:vpdilshadakthar@gmail.com"
-               class="primary-button">
-
-                <i class="fa-solid fa-envelope"></i>
-
-                Email Me
-
-            </a>
-
-            <a href="https://github.com/aktharOG"
-               target="_blank"
-               class="secondary-button">
-
-                <i class="fa-brands fa-github"></i>
-
-                GitHub
-
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= FOOTER ================= -->
-
-<footer>
-
-    <div class="container footer-container">
-
-        <p>
-            © 2026 Dilshad Akthar. All rights reserved.
-        </p>
-
-        <div>
-
-            <a href="https://github.com/aktharOG"
-               target="_blank">
-                GitHub
-            </a>
-
-            <a href="#about">
-                Back to top ↑
-            </a>
-
-        </div>
-
-    </div>
-
-</footer>
-
-
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('#site-nav');
+
+        menuToggle.addEventListener('click', () => {
+            const open = nav.classList.toggle('open');
+            menuToggle.setAttribute('aria-expanded', open);
+            menuToggle.innerHTML = open
+                ? '<i class="fa-solid fa-xmark"></i>'
+                : '<i class="fa-solid fa-bars"></i>';
+        });
+
+        document.querySelectorAll('#site-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                menuToggle.setAttribute('aria-expanded', 'false');
+                menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+            });
+        });
+    </script>
 </body>
 </html>
